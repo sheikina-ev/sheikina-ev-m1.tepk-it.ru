@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Constantia";
+    src: url("../fonts/Constantia.ttf") format("truetype");
+}
+* {
+    font-family: "Constantia", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.border {
+    border: 1px solid black;
+}
+.material-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #AED0FF;
+    border: #405C73 solid 1px;
+    color: black;
+    display: inline-block;
+}
+.material-nav {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.materials-list {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.material-card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.material-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.material-title {
+    font-weight: normal;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.material-form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.material-form input,
+.material-form select {
+    padding: 10px;
+    width: 100%;
+}
+.material-form label {
+    margin-top: 10px;
+}
+
+.material-form button {
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.warning {
+    color: red;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
